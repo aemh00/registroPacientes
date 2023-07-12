@@ -23,4 +23,9 @@ class Home extends BaseController
     {
         print_r($_POST);
     }
+
+    public function registros()
+    {
+        return view('pacientes/registros');
+    }
 }

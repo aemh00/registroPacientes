@@ -3,16 +3,18 @@
 <!-- HTML y Bootstrap para el diseño de la página -->
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Formulario de Ingreso de Pacientes</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
   <div class="container">
     <h1>Formulario de Ingreso de Pacientes</h1>
 
     <!-- Formulario -->
-    <form action="<?php echo base_url()?>/envioForm" method="POST">
+    <form action="<?php echo base_url() ?>/envioForm" method="POST">
       <!-- RUT -->
       <div class="form-group">
         <label for="rut">RUT:</label>
@@ -131,7 +133,13 @@
 
       <!-- Botón de envío -->
       <button type="submit" class="btn btn-primary">Guardar</button>
+
     </form>
+    <div class="btn-group">
+      <a href="<?= base_url() ?>" class="btn btn-primary">Volver</a>
+    </div>
   </div>
+
 </body>
+
 </html>

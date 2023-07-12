@@ -30,7 +30,7 @@ class Pacientes extends BaseController {
         'region' => $this->input->post('region'),
         'comuna' => $this->input->post('comuna'),
         'tipo_residencia' => $this->input->post('tipo_residencia')
-        // Aquí puedes agregar la lógica para manejar la fotografía si decides almacenarla en la base de datos o en el servidor.
+        // Aquí puede ir la lógica para manejar la fotografía para almacenarla en la base de datos o en el servidor.
       );
 
       // Guardar los datos en la base de datos (ejemplo)
@@ -44,9 +44,8 @@ class Pacientes extends BaseController {
 
   public function validar_rut($rut) {
     // Validar el formato y el dígito verificador del RUT
-    // Implementa tu lógica de validación aquí, puedes encontrar algoritmos de validación de RUT en línea.
 
-    // Ejemplo de validación básica de RUT en formato XX.XXX.XXX-X
+    // Ejemplo de validación de RUT en formato XX.XXX.XXX-X
     if (!preg_match('/^\d{1,2}\.\d{3}\.\d{3}[-][\dkK]$/', $rut)) {
       $this->form_validation->set_message('validar_rut', 'El campo {field} no es válido.');
       return FALSE;

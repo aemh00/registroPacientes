@@ -2,54 +2,33 @@
 <html lang="en">
 
 <head>
-    <title>Inicio</title>
+    <title>Bienvenido al Registro de Pacientes del Hospital Base Valdivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 100px;
+        }
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        .btn-group {
+            margin-top: 20px;
+        }
+    </style>
+    </head>
 
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/public/css/bootstrap.css">
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+    <body>
+        <br>
+        <div class="container">
+            <h1>Bienvenido al Registro de Pacientes</h1>
+            <div class="btn-group">
+                <a href="<?= base_url() ?>registros" class="btn btn-primary">Ver Registros</a>
+                <a href="<?= base_url() ?>formulario" class="btn btn-primary">Ingresar Nuevo Registro</a>
+            </div>
         </div>
-    </nav>
-    <script src="<?php echo base_url(); ?>/public/js/jquery-3.7.0.min.js"></script>
-    <script src="<?php echo base_url(); ?>/public/js/popper.min.js"></script>
-    <script src="<?php echo base_url(); ?>/public/js/bootstrap.js"></script>
-</body>
+
+        <script src="<?php echo base_url(); ?>/public/js/jquery-3.7.0.min.js"></script>
+        <script src="<?php echo base_url(); ?>/public/js/popper.min.js"></script>
+        <script src="<?php echo base_url(); ?>/public/js/bootstrap.js"></script>
+    </body>
 
 </html>
