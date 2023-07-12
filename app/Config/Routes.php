@@ -29,11 +29,11 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+//$routes->get('/', 'Home::index');
 //$routes->add('/ejemplo', 'Home::ejemplo');
 $routes->add('/ejemplo', 'EjemploController::index');
 //$routes->add('/formulario', 'EjemploController::otro');
-$routes->add('/formulario', 'Home::formulario');
+$routes->add('/', 'Home::formulario');
 $routes->post('/envioForm', 'Home::envioPost');
 $routes->get('/inicio', 'Home::inicio');
 

@@ -17,7 +17,7 @@
       <div class="form-group">
         <label for="rut">RUT:</label>
         <input type="text" class="form-control" id="rut" name="rut" required>
-        <small class="form-text text-muted">Ingrese el RUT sin puntos y con guión (ej. 12345678-9).</small>
+        <small class="form-text text-muted">Ingrese el RUT con puntos y guión (ej. 12.345.678-9).</small>
       </div>
 
       <!-- Nombres -->
