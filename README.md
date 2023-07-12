@@ -11,9 +11,13 @@
 - Implementar el servidor MySQL que almacene las tablas. No hay back-end. Tuve problemas para montar el servidor local y decidí desarrollar la lógica de las otras partes.
 
 ## Lógica de los controladores (Controllers)
-- en la carpeta 'App/Controllers' están los intentos de controladores que logré desarrollar. No están funcionando, sin embargo presentan una lógica adecuada para el problema, sólo faltó pulirlo.
+- en la carpeta `App/Controllers` están los intentos de controladores que logré desarrollar. No están funcionando, sin embargo presentan una lógica adecuada para el problema, sólo faltó pulirlo.
 
 
 ## Requiremientos de funcionamiento
 
-Se trabajó con PHP version 8.2.8 con las siguientes extensiones instaladas: 'intl', 'curl' y las básicas necesarias.
+Se trabajó con PHP version 8.2.8 con las siguientes extensiones instaladas: `intl`, `curl` y las básicas necesarias.
+
+## Instrucciones de ejecución
+- En la carpeta raiz, abrir una consola y ejecutar `php -S localhost:8000`
+- Luego en un navegador visitar `http://localhost:8000/`.
