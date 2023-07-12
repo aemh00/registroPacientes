@@ -9,8 +9,18 @@ class Home extends BaseController
         return view('welcome_message');
     }
 
-    public function ejemplo()
+    public function inicio()
     {
-        return view('vista_ejemplo');
+        return view('pacientes/inicio');
+    }
+
+    public function formulario()
+    {
+        return view('pacientes/formulario');
+    }
+
+    public function envioPost()
+    {
+        print_r($_POST);
     }
 }

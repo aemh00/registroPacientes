@@ -32,7 +32,13 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 //$routes->add('/ejemplo', 'Home::ejemplo');
 $routes->add('/ejemplo', 'EjemploController::index');
-$routes->add('/formulario', 'EjemploController::otro');
+//$routes->add('/formulario', 'EjemploController::otro');
+$routes->add('/formulario', 'Home::formulario');
+$routes->post('/envioForm', 'Home::envioPost');
+$routes->get('/inicio', 'Home::inicio');
+
+
+
 
 /*
  * --------------------------------------------------------------------
