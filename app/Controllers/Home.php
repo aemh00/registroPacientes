@@ -8,4 +8,9 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function ejemplo()
+    {
+        return view('vista_ejemplo');
+    }
 }
