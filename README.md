@@ -3,7 +3,7 @@
 
 ## ¿Qué se logró implementar?
 - Llegué a armar la interfaz de usuario que da la bienvenida a la aplicación, muestra botones con opciones de ver registros y de ingresar registro. Ambos llevan a sus respectivas páginas.
-- Se logró incluir diseños de bootstrap que utilizan CSS y JS.
+- Se imlementó usando `CodeIgniter 4`, incluyendo diseños de bootstrap que utilizan CSS y JS.
 - La parte de formulario está con todos los datos solicitados, son sus respectivos tipos y formatos de selección donde corresponde. Sin embargo, al enviar al formulario solo muestra los mismos datos ingresados.
 - La parte de visualización está pensada para mostrar los registros en una tabla, sólo muestra algunos campos principales. (se verán sólo los encabezados de columna si no hay registros)
 
